@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin: 0 auto;
+	width: 500px;
+	background: #fff;
+	box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.09);
+	padding: 40px 30px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+nav{
+	height: 80px;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.05);
+	display: flex;
+	position: relative;
+}
+nav img{
+	width: 150px;
+	align-self: center;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+
+}
+.wrapper h1{
+	color: #85377b;
+	font-weight: 700;
+
+}
+.wrapper h3{
+	color: #999;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.wrapper .google{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 24%);
+	border-radius: 10px;
+	margin-bottom: 25px;
+	transition: .4s;
+	display: flex;
+}
+.wrapper .google h4{
+	color: #767676;
+}
+.wrapper .google:hover{
+	background: #f5f5f5;
+}
+.wrapper .google:hover h4{
+	color: #85377b;
+}
+.wrapper .logo{
+	width: 30%;
+}
+.wrapper img{
+	width: 20px;
+	text-align: left;
+}
+.wrapper .text{
+	width: 70%;
+	text-align: left;
+}
+.wrapper .facebook{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #1877f2;
+	border-radius: 10px;
+	color: #fff;
+	margin-bottom: 25px;
+	transition: .4s;
+	display: flex;
+}
+.wrapper .facebook:hover{
+	background: #60a2f6;
+	box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+	color: #85377b;
+}
+.wrapper .log_in{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #85377b;
+	border-radius: 10px;
+	color: #fff;
+	margin-bottom: 25px;
+	transition: .4s;
+	text-align: center;
+}
+.wrapper .log_in:hover{
+	background: #deb0d8;
+	box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+	color: #85377b;
+}
+.wrapper .sign_up{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #85377b;
+	border-radius: 10px;
+	color: #85377b;
+	margin-bottom: 25px;
+	transition: .4s;
+	text-align: center;
+}
+.wrapper .sign_up:hover{
+	background: #deb0d8;
+	border: 1px solid #deb0d8;
+	box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+	color: #85377b;
+}
+.wrapper p{
+	color: #999;
+	font-weight: 300;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.wrapper p strong{
+	color: #85377b;
+}
